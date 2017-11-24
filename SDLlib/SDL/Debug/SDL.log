@@ -1,0 +1,173 @@
+﻿生成启动时间为 2016/11/26 22:32:51。
+     1>项目“C:\Users\红进\Desktop\SDL-1.2.15\VisualC\SDL\SDL.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _WINDOWS /D _WIN32_WINNT=0x0400 /D _VC80_UPGRADE=0x0600 /D _WINDLL /Gm /EHsc /MD /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Debug\\" /Fd".\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\audio\disk\SDL_diskaudio.c ..\..\src\audio\dummy\SDL_dummyaudio.c ..\..\src\audio\SDL_audio.c ..\..\src\audio\SDL_audiocvt.c ..\..\src\audio\SDL_mixer.c ..\..\src\audio\SDL_mixer_MMX_VC.c ..\..\src\audio\SDL_wave.c ..\..\src\audio\windib\SDL_dibaudio.c ..\..\src\audio\windx5\SDL_dx5audio.c ..\..\src\cdrom\SDL_cdrom.c ..\..\src\cdrom\win32\SDL_syscdrom.c ..\..\src\cpuinfo\SDL_cpuinfo.c ..\..\src\events\SDL_active.c ..\..\src\events\SDL_events.c ..\..\src\events\SDL_expose.c ..\..\src\events\SDL_keyboard.c ..\..\src\events\SDL_mouse.c ..\..\src\events\SDL_quit.c ..\..\src\events\SDL_resize.c ..\..\src\file\SDL_rwops.c ..\..\src\joystick\SDL_joystick.c ..\..\src\joystick\win32\SDL_mmjoystick.c ..\..\src\loadso\win32\SDL_sysloadso.c ..\..\src\SDL.c ..\..\src\SDL_error.c ..\..\src\SDL_fatal.c ..\..\src\stdlib\SDL_getenv.c ..\..\src\stdlib\SDL_iconv.c ..\..\src\stdlib\SDL_malloc.c ..\..\src\stdlib\SDL_qsort.c ..\..\src\stdlib\SDL_stdlib.c ..\..\src\stdlib\SDL_string.c ..\..\src\thread\generic\SDL_syscond.c ..\..\src\thread\SDL_thread.c ..\..\src\thread\win32\SDL_sysmutex.c ..\..\src\thread\win32\SDL_syssem.c ..\..\src\thread\win32\SDL_systhread.c ..\..\src\timer\SDL_timer.c ..\..\src\timer\win32\SDL_systimer.c ..\..\src\video\dummy\SDL_nullevents.c ..\..\src\video\dummy\SDL_nullmouse.c ..\..\src\video\dummy\SDL_nullvideo.c ..\..\src\video\SDL_blit.c ..\..\src\video\SDL_blit_0.c ..\..\src\video\SDL_blit_1.c ..\..\src\video\SDL_blit_A.c ..\..\src\video\SDL_blit_N.c ..\..\src\video\SDL_bmp.c ..\..\src\video\SDL_cursor.c ..\..\src\video\SDL_gamma.c ..\..\src\video\SDL_pixels.c ..\..\src\video\SDL_RLEaccel.c ..\..\src\video\SDL_stretch.c ..\..\src\video\SDL_surface.c ..\..\src\video\SDL_video.c ..\..\src\video\SDL_yuv.c ..\..\src\video\SDL_yuv_sw.c ..\..\src\video\wincommon\SDL_sysevents.c ..\..\src\video\wincommon\SDL_sysmouse.c ..\..\src\video\wincommon\SDL_syswm.c ..\..\src\video\wincommon\SDL_wingl.c ..\..\src\video\windib\SDL_dibevents.c ..\..\src\video\windib\SDL_dibvideo.c ..\..\src\video\windx5\SDL_dx5events.c ..\..\src\video\windx5\SDL_dx5video.c ..\..\src\video\windx5\SDL_dx5yuv.c
+         SDL_dx5yuv.c
+         SDL_dx5video.c
+     1>c:\users\红进\desktop\sdl-1.2.15\src\video\windx5\sdl_dx5video.c(1205): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+     1>c:\users\红进\desktop\sdl-1.2.15\src\video\windx5\sdl_dx5video.c(1610): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+         SDL_dx5events.c
+         SDL_dibvideo.c
+     1>c:\users\红进\desktop\sdl-1.2.15\src\video\windib\sdl_dibvideo.c(531): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+         SDL_dibevents.c
+         SDL_wingl.c
+         SDL_syswm.c
+         SDL_sysmouse.c
+         SDL_sysevents.c
+     1>c:\users\红进\desktop\sdl-1.2.15\src\video\wincommon\sdl_sysevents.c(826): warning C4996: 'GetVersionExA': 被声明为已否决
+         c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433): note: 参见“GetVersionExA”的声明
+         SDL_yuv_sw.c
+         SDL_yuv.c
+         SDL_video.c
+         SDL_surface.c
+         SDL_stretch.c
+         SDL_RLEaccel.c
+         SDL_pixels.c
+         SDL_gamma.c
+         SDL_cursor.c
+         SDL_bmp.c
+         SDL_blit_N.c
+         正在生成代码...
+         正在编译...
+         SDL_blit_A.c
+         SDL_blit_1.c
+         SDL_blit_0.c
+         SDL_blit.c
+         SDL_nullvideo.c
+         SDL_nullmouse.c
+         SDL_nullevents.c
+         SDL_systimer.c
+         SDL_timer.c
+         SDL_systhread.c
+         SDL_syssem.c
+         SDL_sysmutex.c
+         SDL_thread.c
+         SDL_syscond.c
+         SDL_string.c
+     1>c:\users\红进\desktop\sdl-1.2.15\src\stdlib\sdl_string.c(1018): warning C4996: '_ltoa': This function or variable may be unsafe. Consider using _ltoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(660): note: 参见“_ltoa”的声明
+     1>c:\users\红进\desktop\sdl-1.2.15\src\stdlib\sdl_string.c(1032): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(683): note: 参见“_ultoa”的声明
+     1>c:\users\红进\desktop\sdl-1.2.15\src\stdlib\sdl_string.c(1219): warning C4996: '_strlwr': This function or variable may be unsafe. Consider using _strlwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(233): note: 参见“_strlwr”的声明
+         SDL_stdlib.c
+         SDL_qsort.c
+         SDL_malloc.c
+         SDL_iconv.c
+         SDL_getenv.c
+         正在生成代码...
+         正在编译...
+         SDL_fatal.c
+         SDL_error.c
+         SDL.c
+         SDL_sysloadso.c
+         SDL_mmjoystick.c
+         SDL_joystick.c
+         SDL_rwops.c
+     1>c:\users\红进\desktop\sdl-1.2.15\src\file\sdl_rwops.c(115): warning C4996: 'GetVersionExA': 被声明为已否决
+         c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433): note: 参见“GetVersionExA”的声明
+         SDL_resize.c
+         SDL_quit.c
+         SDL_mouse.c
+         SDL_keyboard.c
+         SDL_expose.c
+         SDL_events.c
+         SDL_active.c
+         SDL_cpuinfo.c
+         SDL_syscdrom.c
+         SDL_cdrom.c
+         SDL_dx5audio.c
+     1>c:\users\红进\desktop\sdl-1.2.15\src\audio\windx5\sdl_dx5audio.c(69): warning C4996: 'GetVersionExA': 被声明为已否决
+         c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433): note: 参见“GetVersionExA”的声明
+         SDL_dibaudio.c
+         SDL_wave.c
+         正在生成代码...
+         正在编译...
+         SDL_mixer_MMX_VC.c
+         SDL_mixer.c
+         SDL_audiocvt.c
+         SDL_audio.c
+         SDL_dummyaudio.c
+         SDL_diskaudio.c
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0409" /nologo /fo".\Debug\Version.res" Version.rc 
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\SDL.dll" /INCREMENTAL /NOLOGO winmm.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:".\Debug\SDL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\SDL.lib" /MACHINE:X86 /SAFESEH /DLL .\Debug\Version.res
+         .\Debug\SDL_diskaudio.obj
+         .\Debug\SDL_dummyaudio.obj
+         .\Debug\SDL_audio.obj
+         .\Debug\SDL_audiocvt.obj
+         .\Debug\SDL_mixer.obj
+         .\Debug\SDL_mixer_MMX_VC.obj
+         .\Debug\SDL_wave.obj
+         .\Debug\SDL_dibaudio.obj
+         .\Debug\SDL_dx5audio.obj
+         .\Debug\SDL_cdrom.obj
+         .\Debug\SDL_syscdrom.obj
+         .\Debug\SDL_cpuinfo.obj
+         .\Debug\SDL_active.obj
+         .\Debug\SDL_events.obj
+         .\Debug\SDL_expose.obj
+         .\Debug\SDL_keyboard.obj
+         .\Debug\SDL_mouse.obj
+         .\Debug\SDL_quit.obj
+         .\Debug\SDL_resize.obj
+         .\Debug\SDL_rwops.obj
+         .\Debug\SDL_joystick.obj
+         .\Debug\SDL_mmjoystick.obj
+         .\Debug\SDL_sysloadso.obj
+         .\Debug\SDL.obj
+         .\Debug\SDL_error.obj
+         .\Debug\SDL_fatal.obj
+         .\Debug\SDL_getenv.obj
+         .\Debug\SDL_iconv.obj
+         .\Debug\SDL_malloc.obj
+         .\Debug\SDL_qsort.obj
+         .\Debug\SDL_stdlib.obj
+         .\Debug\SDL_string.obj
+         .\Debug\SDL_syscond.obj
+         .\Debug\SDL_thread.obj
+         .\Debug\SDL_sysmutex.obj
+         .\Debug\SDL_syssem.obj
+         .\Debug\SDL_systhread.obj
+         .\Debug\SDL_timer.obj
+         .\Debug\SDL_systimer.obj
+         .\Debug\SDL_nullevents.obj
+         .\Debug\SDL_nullmouse.obj
+         .\Debug\SDL_nullvideo.obj
+         .\Debug\SDL_blit.obj
+         .\Debug\SDL_blit_0.obj
+         .\Debug\SDL_blit_1.obj
+         .\Debug\SDL_blit_A.obj
+         .\Debug\SDL_blit_N.obj
+         .\Debug\SDL_bmp.obj
+         .\Debug\SDL_cursor.obj
+         .\Debug\SDL_gamma.obj
+         .\Debug\SDL_pixels.obj
+         .\Debug\SDL_RLEaccel.obj
+         .\Debug\SDL_stretch.obj
+         .\Debug\SDL_surface.obj
+         .\Debug\SDL_video.obj
+         .\Debug\SDL_yuv.obj
+         .\Debug\SDL_yuv_sw.obj
+         .\Debug\SDL_sysevents.obj
+         .\Debug\SDL_sysmouse.obj
+         .\Debug\SDL_syswm.obj
+         .\Debug\SDL_wingl.obj
+         .\Debug\SDL_dibevents.obj
+         .\Debug\SDL_dibvideo.obj
+         .\Debug\SDL_dx5events.obj
+         .\Debug\SDL_dx5video.obj
+         .\Debug\SDL_dx5yuv.obj
+     1>SDL_diskaudio.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+           正在创建库 .\Debug\SDL.lib 和对象 .\Debug\SDL.exp
+         SDL.vcxproj -> C:\Users\红进\Desktop\SDL-1.2.15\VisualC\SDL\.\Debug\SDL.dll
+     1>已完成生成项目“C:\Users\红进\Desktop\SDL-1.2.15\VisualC\SDL\SDL.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:12.17
